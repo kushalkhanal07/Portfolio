@@ -16,7 +16,9 @@ export interface Project {
   link: string;
   slug: string;
   frontend: string[];
+  payment: string[];
   backend: string[];
+  stateManagement:string;
   database: string | null;
 }
 

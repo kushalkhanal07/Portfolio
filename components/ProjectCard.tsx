@@ -33,16 +33,29 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           <div>
             <p className={styles.titleContent}>Frontend</p>
             <div className={styles.flexButton}>
-              {project?.frontend?.map((language)=>{
+              {project?.frontend?.map((language) => {
                 return <>
-                <button className={styles.textButton}>{language}</button>
+                  <button className={styles.textButton}>{language}</button>
                 </>
               })}
-             
             </div>
-            {project?.backend.length > 0 &&<p className={styles.titleContent}>Backend</p>}
+            {project?.payment.length > 0 && <p className={styles.titleContent}>Payment</p>}
+            <div className={styles.flexButton}>
+              {project?.payment?.map((payment: any) => {
+                return <>
+                  <button className={styles.textButton}>{payment}</button>
+                </>
+              })}
+            </div>
+            {project?.stateManagement && <p className={styles.titleContent}>State Management</p>}
+            <div className={styles.flexButton}>
+              
+                  <button className={styles.textButton}>{project.stateManagement}</button>
+                
+            </div>
+            {project?.backend.length > 0 && <p className={styles.titleContent}>Backend</p>}
             {
-              project?.backend.length > 0 && project.backend.map((language,idx) => <button key={idx} className={styles.textButton}>{language}</button>)
+              project?.backend.length > 0 && project.backend.map((language, idx) => <button key={idx} className={styles.textButton}>{language}</button>)
             }
             {project?.database && <p className={styles.titleContent}>Database</p>}
             {project?.database && <button className={styles.textButton}>MongoDB</button>}
