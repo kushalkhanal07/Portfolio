@@ -23,13 +23,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              Currently working at <span className={styles.highlight}>Hyberlab</span> as a Full-stack Web Developer, where I transitioned from a 3-month internship into a full-time role. I collaborate with a lean and efficient team to build and maintain a scalable SaaS video platform, focusing on performance, responsiveness, and usability.
-
-              Led the development of the Hyberlab company website, showcasing the platform’s capabilities using Next.js and TypeScript.
-
-              Played a key role in frontend architecture, component structuring, and ensuring SEO-friendly, responsive design across devices.
-
-              Built features for collaborative video reviewing, internal component libraries, and dynamic page routing.
+              "I worked at <span className={styles.highlight}>Hyberlab</span> for about one year as a <span className={styles.highlight}>Frontend Developer</span>, contributing to the design and development of dynamic web interfaces, and for three months as a <span className={styles.highlight}>Backend Developer</span>. I am currently working at <span className={styles.highlight}>Web Experts</span> as a <span className={styles.highlight}>Frontend Web Developer</span> (4 months), focusing on developing responsive, user-friendly web applications using <span className={styles.highlight}>modern JavaScript frameworks</span> and tools."
             </p>
             
           </section>
