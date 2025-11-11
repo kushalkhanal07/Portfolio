@@ -23,7 +23,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              "I worked at <span className={styles.highlight}>Hyberlab</span> for about one year as a <span className={styles.highlight}>Frontend Developer</span>, contributing to the design and development of dynamic web interfaces, and for three months as a <span className={styles.highlight}>Backend Developer</span>. I am currently working at <span className={styles.highlight}>Web Experts</span> as a <span className={styles.highlight}>Frontend Web Developer</span> (4 months), focusing on developing responsive, user-friendly web applications using <span className={styles.highlight}>modern JavaScript frameworks</span> and tools."
+              I worked at <span className={styles.highlight}>Hyberlab</span> for about one year as a <span className={styles.highlight}>Frontend Developer</span>, contributing to the design and development of dynamic web interfaces, and for three months as a <span className={styles.highlight}>Backend Developer</span>. I am currently working at <span className={styles.highlight}>Web Experts</span> as a <span className={styles.highlight}>Frontend Web Developer</span> (4 months), focusing on developing responsive, user-friendly web applications using <span className={styles.highlight}>modern JavaScript frameworks</span> and tools.
             </p>
             
           </section>
