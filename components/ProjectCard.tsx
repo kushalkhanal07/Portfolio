@@ -41,7 +41,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             </div>
             {project?.payment.length > 0 && <p className={styles.titleContent}>Payment</p>}
             <div className={styles.flexButton}>
-              {project?.payment?.map((payment: any) => {
+              {project?.payment?.map((payment) => {
                 return <>
                   <button className={styles.textButton}>{payment}</button>
                 </>
